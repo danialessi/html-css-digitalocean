@@ -1,0 +1,48 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+/* HEADER */
+/* top-nav  */
+.top-nav {
+    padding: 20px 0;
+}
+
+.top-nav img {
+    width: 200px;
+}
+
+
+.link_list {
+    line-height: 45px;
+}
+
+.link_list li a {
+    color: black;
+    font-size: 12px;
+}
+
+.link_list i {
+    font-size: 12px;
+}
+
+.burger {
+    text-align: right;
+}
+.burger i {
+    font-size: 20px;
+    line-height: 45px;
+    color: #3a8aff;
+}
+
+.button {
+    border-color: #3a8aff;
+    color: #3a8aff;
+}
+/* end top-nav  */
+/* END HEADER  */
+
+/* MAIN  */
+/* jumbotron  */
+
+/* end jumbotron  */
+/* END MAIN  */
