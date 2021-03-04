@@ -1,6 +1,18 @@
 body {
     font-family: Roboto, sans-serif;
 }
+
+/* COMMON  */
+.grey-background {
+    background-color: #f3f5f9;
+}
+
+h2,h4 {
+    color: black;
+}
+/* END COMMON  */
+
+
 /* HEADER */
 /* top-nav  */
 .top-nav {
@@ -58,11 +70,12 @@ body {
 }
 
 .jumbotron-wrapper p {
-    font-size: 15px;
     color: lightgrey;
+    font-size: 15px;
+    
 }
 
-@media all and (max-width: 767px) {
+@media all and (max-width: 991px) {
     .jumbotron-wrapper p {
         font-size: 18px;
     }
@@ -86,4 +99,55 @@ button img {
     font-size: 12px;
 }
 /* end jumbotron  */
+
+/* companies  */
+.companies-wrapper {
+    text-align: center;
+    padding: 50px 0 20px 0;
+    margin: auto;
+}
+
+.companies-wrapper img {
+    width: 80%;
+}
+/* TICKET ---------------------------------------- */
+
+/* end companies  */
+
+/* processes  */
+.processes-title-wrapper {
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media all and (max-width: 991px) {
+    .processes-title-wrapper p {
+        font-size: 18px;
+    }
+}
+
+.processes-list {
+    border-left: 1px solid #63708c;
+    margin-bottom: 30px;
+}
+
+.processes-list li {
+    color: #8a94aa;
+    padding: 10px 0 2px 5px;
+}
+
+@media all and (min-width: 768px) {
+    .col_wrapper {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+/* da rivedere ------------ */
+.bottom_row {
+    margin-top: 10px;
+}
+/* end processes  */
+
+
 /* END MAIN  */
