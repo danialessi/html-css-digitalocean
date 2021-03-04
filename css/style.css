@@ -29,6 +29,12 @@ h2,h4 {
         font-size: 18px;
     }
 }
+
+.caption {
+    padding-top: 20px;
+    color: #072051;
+    font-weight: bold;
+}
 /* END COMMON  */
 
 
@@ -175,12 +181,6 @@ button img {
     padding-top: 100px;
 }
 
-.caption {
-    padding-top: 20px;
-    color: #072051;
-    font-weight: bold;
-}
-
 .chevron {
     font-size: 25px;
     position: relative;
@@ -219,6 +219,10 @@ button img {
 /* end features  */
 
 /* regions  */
+.table-wrapper {
+    padding-bottom: 50px;
+}
+
 .row_wrapper {
     font-size: 12px;
     border-bottom: 1px solid white;
@@ -241,6 +245,36 @@ button img {
     color: #1fabc8;
     text-align: right;
 }
-
 /* end regions  */
+
+/* second slider  */
+.second-slider-wrapper {
+    text-align: center;
+}
+.white-slider-wrapper {
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0;
+    display: inline-block;
+}
+
+.white-slider-wrapper p {
+    padding: 20px;
+    
+}
+
+@media all and (max-width: 991px) {
+    .white-slider-wrapper p {
+        font-size: 18px;
+    }
+}
+
+.second-slider-wrapper span {
+    font-size: 25px;
+    position: relative;
+    top: -110px;
+}
+/* end second slider  */
 /* END MAIN  */
