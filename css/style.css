@@ -288,5 +288,39 @@ button img {
 /* END MAIN  */
 
 /* FOOTER  */
+.footer-background {
+    background-color: #031c4e;
+}
 
+.footer_padding {
+    padding: 50px 0;
+}
+
+.copyright {
+    color: #868fa5;
+    margin: 10px 0;
+}
+
+.copyright div:last-child {
+    color: #7a859e;
+}
+
+.social li a i {
+    font-size: 18px;
+    color: #868fa5;
+}
+
+.footer_lists {
+    color: #a2aaba;
+    padding: 10px 0;
+}
+
+.footer_lists li {
+    padding-top: 10px;
+}
+
+.footer_lists li:first-child {
+    color: white;
+    font-size: 18px;
+}
 /* END FOOTER  */
