@@ -7,6 +7,14 @@ body {
     background-color: #f3f5f9;
 }
 
+.blue-background {
+    background-color: #00259f;
+}
+
+.blue-background h2 {
+    color: white;
+}
+
 h2,h4 {
     color: #072051;
 }
@@ -125,8 +133,6 @@ button img {
 /* end companies  */
 
 /* processes  */
-
-
 .processes-list {
     border-left: 1px solid #63708c;
     margin-bottom: 30px;
@@ -208,11 +214,33 @@ button img {
 
 /* features  */
 .content_col {
-    margin-top: 20px;
+    padding: 10px 0;
 }
 /* end features  */
 
 /* regions  */
+.row_wrapper {
+    font-size: 12px;
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+.tables_margin {
+    margin: 20px 10px;
+}
+
+.content_col_left {
+    color: white;
+}
+
+.content_col_center {
+    color: #8a94aa;
+}
+
+.content_col_right {
+    color: #1fabc8;
+    text-align: right;
+}
 
 /* end regions  */
 /* END MAIN  */
