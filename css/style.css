@@ -8,7 +8,18 @@ body {
 }
 
 h2,h4 {
-    color: black;
+    color: #072051;
+}
+
+.title-wrapper {
+    text-align: center;
+    padding: 50px 0;
+}
+
+@media all and (max-width: 991px) {
+    .title-wrapper p {
+        font-size: 18px;
+    }
 }
 /* END COMMON  */
 
@@ -72,7 +83,6 @@ h2,h4 {
 .jumbotron-wrapper p {
     color: lightgrey;
     font-size: 15px;
-    
 }
 
 @media all and (max-width: 991px) {
@@ -115,16 +125,7 @@ button img {
 /* end companies  */
 
 /* processes  */
-.processes-title-wrapper {
-    text-align: center;
-    padding: 50px 0;
-}
 
-@media all and (max-width: 991px) {
-    .processes-title-wrapper p {
-        font-size: 18px;
-    }
-}
 
 .processes-list {
     border-left: 1px solid #63708c;
@@ -143,11 +144,66 @@ button img {
     }
 }
 
+@media all and (min-width: 992px) {
+    .col_wrapper p {
+        font-size: 12px;
+    }
+}
+
 /* da rivedere ------------ */
 .bottom_row {
     margin-top: 10px;
+    padding-bottom: 40px;
 }
 /* end processes  */
 
+/* slider  */
+
+.slider-wrapper {
+    width: 90%;
+    margin: auto;
+}
+
+.slider-wrapper img {
+    width: 50%;
+    padding-top: 100px;
+}
+
+.caption {
+    padding-top: 20px;
+    color: #072051;
+    font-weight: bold;
+}
+
+.chevron {
+    font-size: 25px;
+    position: relative;
+    top: 70px;
+    padding: 0 20px;
+}
+
+.fas.fa-chevron-left {
+    opacity: 0.6;
+}
+
+@media all and (max-width: 767px) {
+    .chevron {
+        display: none;
+    }
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.full-dot {
+    background-color: blue;
+}
+/* end slider  */
 
 /* END MAIN  */
