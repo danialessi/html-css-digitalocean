@@ -13,7 +13,7 @@ h2,h4 {
 
 .title-wrapper {
     text-align: center;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 @media all and (max-width: 991px) {
@@ -207,6 +207,12 @@ button img {
 /* end slider  */
 
 /* features  */
-
+.content_col {
+    margin-top: 20px;
+}
 /* end features  */
+
+/* regions  */
+
+/* end regions  */
 /* END MAIN  */
