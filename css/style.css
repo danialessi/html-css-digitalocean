@@ -143,13 +143,17 @@ button img {
 
 @media all and (max-width: 767px) {
     .companies-list li {
-        width: 50%;
+        width: calc((100% / 2) - 2px);
     }
 }
 
-@media all and (min-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
     .companies-list li {
-        width: calc(100% / 6);
+        width: calc((100% / 6) - 3px);
+    }
+
+    .companies-list li img {
+        width: 100%;
     }
 }
 
@@ -197,7 +201,7 @@ button img {
 
 .slider-wrapper img {
     width: 50%;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 
 .chevron {
@@ -232,8 +236,12 @@ button img {
 /* end slider  */
 
 /* features  */
+.features-wrapper {
+    padding-bottom: 40px;
+}
+
 .content_col {
-    padding: 10px 0;
+    padding: 20px 0;
 }
 /* end features  */
 
@@ -340,5 +348,9 @@ button img {
 .footer_lists li:first-child {
     color: white;
     font-size: 18px;
+}
+
+.footer_lists li a {
+    color: #868fa5
 }
 /* END FOOTER  */
