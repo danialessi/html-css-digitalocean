@@ -41,13 +41,21 @@ h2,h4 {
 
 /* HEADER */
 /* top-nav  */
+.top-nav {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
 .top-nav img {
-    width: 200px;
+    width: 170px;
     padding-top: 20px;
 }
 
 .link_list {
-    line-height: 60px;
+    line-height: 50px;
     padding-top: 10px;
 }
 
@@ -60,9 +68,14 @@ h2,h4 {
     font-size: 12px;
 }
 
+.right_nav {
+    text-align: right;
+}
+
 .burger {
     text-align: right;
 }
+
 .burger i {
     font-size: 20px;
     line-height: 45px;
@@ -81,7 +94,7 @@ h2,h4 {
     }
 
     .top-nav img {
-        padding-top: 5px;
+        padding-top: 10px;
     }
 }
 /* end top-nav  */
@@ -97,6 +110,7 @@ h2,h4 {
 .jumbotron-wrapper {
     padding: 50px 0;
     color: white;
+    margin-top: 70px;
 }
 
 .jumbotron-wrapper h1 {
