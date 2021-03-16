@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON  */
+.grey-text {
+    color: lightgrey;
+}
+
+.grey-background {
+    background-color: #f3f5f9;
+}
+/* END COMMON  */
+
+
+/* HEADER  */
+.nav-container {
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+}
+
+.menu {
+    font-size: 13px;
+    padding-top: 15px;
+}
+
+.menu a {
+    color: black;
+}
+
+.button {
+    border-color: #3a8aff;
+}
+
+.burger {
+    font-size: 20px;
+    color: blue;
+    padding-top: 10px;
+}
+/* END HEADER  */
+
+
+/* MAIN  */
+/* jumbotron  */
+#jumbotron-background {
+    padding: 30px 0;
+    background-image: url(../img/ms-jumbo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron-content-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.left_col {
+    width: 50%;
+    color: white;
+    padding-right: 30px;
+}
+
+.left_col h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.right_col {
+    width: 50%;
+}
+
+.content_col {
+    background-color: white;
+    padding: 20px 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.terms {
+    font-size: 12px;
+}
+/* end jumbotron  */
+
+
+/* companies */
+.companies-wrapper {
+    width: 70%;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.companies-list {
+    text-align: center;
+    display: flex;
+}
+
+.companies-list li {
+    width: calc((100% / 6) - 5px);
+    padding: 5px;
+}
+
+.companies-list li img {
+    width: 100%;
+}
+
+.customers-link {
+    text-decoration: underline;
+}
+/* end companies  */
+
+
+/* processes  */
+.processes-wrapper {
+    width: 80%;
+    margin: auto;
+    height: 550px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.processes {
+    display: flex;
+}
+/* end processes  */
+/* END MAIN  */
+
+
+/* MEDIA QUERIES  */
+@media screen and (max-width: 767px) {
+    /* jumbotron  */
+    .jumbotron-content-wrapper {
+        flex-direction: column;
+    }
+
+    .left_col {
+        width: 100%;
+    }
+
+    .right_col {
+        width: 100%;
+    }
+    /* end jumbotron  */
+
+    /* companies  */
+    .companies-list {
+        flex-wrap: wrap;
+    }
+
+    .companies-list li {
+        width: calc((100% / 2) - 2px);
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .left_col p {
+        font-size: 16px;
+    }
+}
+
+/* END MEDIA QUERIES  */
